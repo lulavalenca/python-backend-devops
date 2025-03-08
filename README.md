@@ -1,11 +1,11 @@
-Python Backend DevOps - Roadmap de Estudos
+# Python Backend DevOps - Roadmap de Estudos
 
-📌 Sobre o Projeto
+## 📌 Sobre o Projeto
+Este repositório tem como objetivo ser um guia de estudos para desenvolvedores backend Python que desejam aprender sobre DevOps. O projeto está estruturado para ser seguido em **90 dias**, incluindo conceitos, exercícios práticos e projetos para reforçar o aprendizado.
 
-Este repositório tem como objetivo ser um guia de estudos para desenvolvedores backend Python que desejam aprender sobre DevOps. O projeto está estruturado para ser seguido em 90 dias, incluindo conceitos, exercícios práticos e projetos para reforçar o aprendizado.
+## 📂 Estrutura do Repositório
 
-📂 Estrutura do Repositório
-
+```
 📁 python-backend-devops
 │── 📄 README.md             # Explicação do projeto
 │── 📄 .gitignore            # Arquivos ignorados pelo Git
@@ -35,54 +35,55 @@ Este repositório tem como objetivo ser um guia de estudos para desenvolvedores 
 │── 📁 scripts               # Scripts úteis para automação
 │   ├── 📄 setup.sh          # Instalação de dependências
 │   ├── 📄 run_tests.sh      # Rodar testes automaticamente
+```
 
-🚀 Como Configurar o Ambiente
+## 🚀 Como Configurar o Ambiente
 
-1️⃣ Clonar o Repositório
-
+### 1️⃣ Clonar o Repositório
+```sh
 git clone <URL_DO_REPOSITORIO>
 cd python-backend-devops
+```
 
-2️⃣ Configurar o pyenv e Poetry
-
+### 2️⃣ Configurar o pyenv e Poetry
+```sh
 pyenv install 3.11  # Instala a versão desejada
 pyenv local 3.11    # Define a versão do Python para o projeto
 
 poetry install      # Instala dependências
+```
 
-3️⃣ Rodar Testes Automatizados
-
+### 3️⃣ Rodar Testes Automatizados
+```sh
 pytest tests/
+```
 
-4️⃣ Enviar Atualizações para o GitHub
-
+### 4️⃣ Enviar Atualizações para o GitHub
+```sh
 git add .
 git commit -m "Adiciona novas funcionalidades"
 git push origin main
+```
 
-📅 Roadmap de 90 Dias
-
+## 📅 Roadmap de 90 Dias
 O estudo está dividido em 3 fases:
 
-1️⃣ Fundamentos de Python (Dias 1-30)
+1️⃣ **Fundamentos de Python** (Dias 1-30)
+- Tipos de dados, controle de fluxo, funções e POO
+- Exercícios e um mini-projeto
 
-Tipos de dados, controle de fluxo, funções e POO
+2️⃣ **Banco de Dados e Web** (Dias 31-60)
+- SQL, NoSQL, Flask/Django, APIs REST
+- Projeto: API completa com Flask/Django
 
-Exercícios e um mini-projeto
+3️⃣ **DevOps e Avançado** (Dias 61-90)
+- Docker, Kubernetes, CI/CD, Segurança, Redes
+- Projeto final: App escalável com CI/CD
 
-2️⃣ Banco de Dados e Web (Dias 31-60)
+## 🎯 Objetivo Final
+Ao final dos 90 dias, você estará pronto para trabalhar como um **desenvolvedor backend Python com habilidades em DevOps**!
 
-SQL, NoSQL, Flask/Django, APIs REST
+---
 
-Projeto: API completa com Flask/Django
-
-3️⃣ DevOps e Avançado (Dias 61-90)
-
-Docker, Kubernetes, CI/CD, Segurança, Redes
-
-Projeto final: App escalável com CI/CD
-
-🎯 Objetivo Final
-
-Ao final dos 90 dias, você estará pronto para trabalhar como um desenvolvedor backend Python com habilidades em DevOps!
+Vamos juntos nessa jornada! 🚀
 
