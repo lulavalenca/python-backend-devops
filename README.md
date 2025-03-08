@@ -79,10 +79,6 @@ O estudo está dividido em 3 fases:
 3️⃣ **DevOps e Avançado** (Dias 61-90)
 - Docker, Kubernetes, CI/CD, Segurança, Redes
 - Projeto final: App escalável com CI/CD
-
-## 🎯 Objetivo Final
-Ao final dos 90 dias, você estará pronto para trabalhar como um **desenvolvedor backend Python com habilidades em DevOps**!
-
 ---
 
 Vamos juntos nessa jornada! 🚀
